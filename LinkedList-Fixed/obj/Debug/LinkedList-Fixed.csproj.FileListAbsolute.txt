@@ -1,0 +1,8 @@
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\bin\Debug\LinkedList-Fixed.exe.config
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\bin\Debug\LinkedList-Fixed.exe
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList_Fixed.Form1.resources
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList_Fixed.Properties.Resources.resources
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.csproj.GenerateResource.cache
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.csproj.CoreCompileInputs.cache
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.exe
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.pdb

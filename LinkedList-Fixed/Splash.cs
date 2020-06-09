@@ -16,5 +16,27 @@ namespace LinkedList_Fixed
         {
             InitializeComponent();
         }
+
+        Timer tmr;
+        private void Splash_Shown(object sender, EventArgs e)
+        {
+            tmr = new Timer();
+            //set time interval 3 sec
+            tmr.Interval = 3000;
+
+            //starts the timer
+            tmr.Start();
+            tmr.Tick += tmr_Tick;
+        }
+        void tmr_Tick(object sender, EventArgs e)
+        {
+            //after 3 sec stop the timer
+            tmr.Stop();
+            //display Form1
+            Form1 Frm1 = new Form1();
+            Frm1.Show();
+            //hide Splash form
+            this.Hide();
+        }
     }
 }

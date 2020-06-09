@@ -21,7 +21,7 @@ namespace LinkedList_Fixed
             numberAddedLabel.Visible = false;
             sumOfTheListLabel.Visible = false;
             valueFound.Visible = false;
-            insertNumberLabel.Visible = false;
+            displayArrayLabel.Visible = false;
 
             /*
             FixedList<int> fixedList = new FixedList<int>();
@@ -78,6 +78,10 @@ namespace LinkedList_Fixed
             numberAddedLabel.Visible = true;
             //Adds the number to the list
             fixedList.addItem(num);
+            //Makes the displayArrayLabel visable
+            displayArrayLabel.Visible = true;
+            //Updates the itmes on displayArrayLabel
+            displayArrayLabel.Text = "" + printList(fixedList.getFixedList());
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -127,8 +131,8 @@ namespace LinkedList_Fixed
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-            insertNumberLabel.Visible = false;
+            /*
+            displayArrayLabel.Visible = false;
             //If the box is empty
             if (valueBox.Text == "")
                 return; 
@@ -153,7 +157,9 @@ namespace LinkedList_Fixed
             //Adds the number to the fixedd list
             fixedList.addValue(value, index);
             //Sets the good message to visable
-            insertNumberBox.Visible = true;
+            insertNumberBox.Visible = true;*/
+            displayArrayLabel.Visible = true;
+            displayArrayLabel.Text = "" + printList(fixedList.getFixedList());
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)

@@ -6,3 +6,6 @@ C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedLi
 C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.csproj.CoreCompileInputs.cache
 C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.exe
 C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.pdb
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\bin\Debug\LinkedList-Fixed.pdb
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList-Fixed.csprojAssemblyReference.cache
+C:\Users\my3ki\source\repos\LinkedList-Fixed\LinkedList-Fixed\obj\Debug\LinkedList_Fixed.Splash.resources

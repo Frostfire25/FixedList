@@ -39,7 +39,8 @@
             this.header.BackColor = System.Drawing.Color.Transparent;
             this.header.Font = new System.Drawing.Font("Neon Lights", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.header.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.header.Location = new System.Drawing.Point(50, 150);
+            this.header.Location = new System.Drawing.Point(100, 335);
+            this.header.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.header.Name = "header";
             this.header.Size = new System.Drawing.Size(194, 43);
             this.header.TabIndex = 0;
@@ -51,7 +52,8 @@
             this.name.BackColor = System.Drawing.Color.Transparent;
             this.name.Font = new System.Drawing.Font("Neon Lights", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.name.Location = new System.Drawing.Point(50, 193);
+            this.name.Location = new System.Drawing.Point(100, 431);
+            this.name.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(355, 43);
             this.name.TabIndex = 1;
@@ -59,13 +61,15 @@
             // 
             // Splash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(417, 450);
+            this.ClientSize = new System.Drawing.Size(834, 1004);
             this.Controls.Add(this.name);
             this.Controls.Add(this.header);
+            this.Font = new System.Drawing.Font("Mycalc", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Splash";
             this.Text = "Splash";
             this.Shown += new System.EventHandler(this.Splash_Shown);

@@ -70,9 +70,11 @@
             // 
             // addItemBox
             // 
+            this.addItemBox.Font = new System.Drawing.Font("Minecraftia", 18F);
+            this.addItemBox.ForeColor = System.Drawing.SystemColors.Desktop;
             this.addItemBox.Location = new System.Drawing.Point(20, 193);
             this.addItemBox.Name = "addItemBox";
-            this.addItemBox.Size = new System.Drawing.Size(124, 20);
+            this.addItemBox.Size = new System.Drawing.Size(124, 58);
             this.addItemBox.TabIndex = 2;
             // 
             // addItemButton
@@ -93,7 +95,7 @@
             this.numberAddedLabel.BackColor = System.Drawing.Color.Transparent;
             this.numberAddedLabel.Font = new System.Drawing.Font("Minecraftia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numberAddedLabel.ForeColor = System.Drawing.Color.Black;
-            this.numberAddedLabel.Location = new System.Drawing.Point(12, 216);
+            this.numberAddedLabel.Location = new System.Drawing.Point(1, 244);
             this.numberAddedLabel.Name = "numberAddedLabel";
             this.numberAddedLabel.Size = new System.Drawing.Size(296, 56);
             this.numberAddedLabel.TabIndex = 4;
@@ -105,7 +107,7 @@
             this.sumOfTheListLabel.BackColor = System.Drawing.Color.Transparent;
             this.sumOfTheListLabel.Font = new System.Drawing.Font("Minecraftia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sumOfTheListLabel.ForeColor = System.Drawing.Color.Black;
-            this.sumOfTheListLabel.Location = new System.Drawing.Point(15, 310);
+            this.sumOfTheListLabel.Location = new System.Drawing.Point(12, 320);
             this.sumOfTheListLabel.Name = "sumOfTheListLabel";
             this.sumOfTheListLabel.Size = new System.Drawing.Size(72, 56);
             this.sumOfTheListLabel.TabIndex = 8;
@@ -115,7 +117,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Minecraftia", 20.25F);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.Location = new System.Drawing.Point(268, 264);
+            this.button1.Location = new System.Drawing.Point(333, 244);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 46);
             this.button1.TabIndex = 7;
@@ -129,7 +131,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Minecraftia", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label3.Location = new System.Drawing.Point(9, 263);
+            this.label3.Location = new System.Drawing.Point(3, 288);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(253, 47);
             this.label3.TabIndex = 5;
@@ -141,7 +143,7 @@
             this.valueFound.BackColor = System.Drawing.Color.Transparent;
             this.valueFound.Font = new System.Drawing.Font("Minecraftia", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.valueFound.ForeColor = System.Drawing.Color.Black;
-            this.valueFound.Location = new System.Drawing.Point(9, 477);
+            this.valueFound.Location = new System.Drawing.Point(9, 497);
             this.valueFound.Name = "valueFound";
             this.valueFound.Size = new System.Drawing.Size(247, 47);
             this.valueFound.TabIndex = 12;
@@ -162,9 +164,11 @@
             // 
             // valueBox
             // 
-            this.valueBox.Location = new System.Drawing.Point(23, 402);
+            this.valueBox.Font = new System.Drawing.Font("Minecraftia", 18F);
+            this.valueBox.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.valueBox.Location = new System.Drawing.Point(22, 427);
             this.valueBox.Name = "valueBox";
-            this.valueBox.Size = new System.Drawing.Size(124, 20);
+            this.valueBox.Size = new System.Drawing.Size(124, 58);
             this.valueBox.TabIndex = 10;
             // 
             // label4
@@ -173,7 +177,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Minecraftia", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label4.Location = new System.Drawing.Point(12, 357);
+            this.label4.Location = new System.Drawing.Point(9, 375);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(184, 47);
             this.label4.TabIndex = 9;
@@ -185,7 +189,7 @@
             this.displayArrayLabel.BackColor = System.Drawing.Color.Transparent;
             this.displayArrayLabel.Font = new System.Drawing.Font("Minecraftia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayArrayLabel.ForeColor = System.Drawing.Color.Black;
-            this.displayArrayLabel.Location = new System.Drawing.Point(12, 586);
+            this.displayArrayLabel.Location = new System.Drawing.Point(12, 607);
             this.displayArrayLabel.Name = "displayArrayLabel";
             this.displayArrayLabel.Size = new System.Drawing.Size(20, 28);
             this.displayArrayLabel.TabIndex = 16;
@@ -197,7 +201,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Minecraftia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label2.Location = new System.Drawing.Point(12, 524);
+            this.label2.Location = new System.Drawing.Point(5, 530);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(292, 56);
             this.label2.TabIndex = 18;
@@ -209,8 +213,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(465, 659);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.displayArrayLabel);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.valueFound);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.valueBox);

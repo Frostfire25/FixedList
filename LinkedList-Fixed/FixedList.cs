@@ -25,8 +25,7 @@ namespace LinkedList_Fixed
         {
             //Temp Array Instiantization
             T[] temparray = new T[array.Length + 1];
-            //Is int instantiating
-            bool is_int = array[0] is Int32;
+            //Is int instantiating      
             //Adds all the values from the old array to the new array
             for (int i = 0; i < array.Length; i++)
             {
@@ -37,11 +36,10 @@ namespace LinkedList_Fixed
             temparray[array.Length] = item;
             //Assigns the array to the temparray
             //If the Array is an int array
-            if (is_int)
-                //Sorts the array
-                Array.Sort(temparray);
+            Array.Sort(temparray);
             array = temparray;
         }
+
         public void addItems(T[] items)
         {
             //Temp Array Instiantization
